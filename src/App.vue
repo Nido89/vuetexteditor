@@ -1,5 +1,7 @@
 <template>
+
   <div id="app">
+    <h1 >TextEditor for Eximia</h1>
    <TextEditor id="myeditor"/>
   </div>
 </template>
@@ -17,14 +19,19 @@ export default {
 
 <style>
 body{
+  
   background-color: teal;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin: 60px;
+  color:black;
+  margin:0 0 60px;
+
+}
+  h1{
+    color: white;
 }
 #myeditor{
   background-color: white;
